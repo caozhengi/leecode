@@ -1849,13 +1849,14 @@ var possibleBipartition = function (n, dislikes) {
 };
 
 const example = [
-    "12"
+    3,
+    7
     // covert2BinaryTree([1,2,3,4,5,null,7])
 ];
 
 console.log('param', ...example);
 // const example = covertList([1,1,2]); 
-console.log("Result: ", numDecodings(...example));
+console.log("Result: ", uniquePaths(...example));
 
 
 /** 
