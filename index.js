@@ -1,6 +1,5 @@
 const example = [
-    5,
-    [1, 2, 5]
+    [7, 1, 5, 3, 6, 4]
     // [[46, 89], [50, 53], [52, 68], [72, 45], [77, 81]]
     // [-2, 1, -3, 4, -1, 2, 1, -5, 4]
     // covert2BinaryTree([1,2,3,4,5,null,7])
@@ -8,7 +7,7 @@ const example = [
 
 console.log('param', ...example)
 // const example = covertList([1,1,2]);
-console.log('Result: ', canPartition(...example))
+console.log('Result: ', maxProfit(...example))
 
 /**
 let obj = null;
