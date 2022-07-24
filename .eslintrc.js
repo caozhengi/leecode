@@ -12,6 +12,7 @@ module.exports = {
     rules: {
         indent: ['error', 4],
         'no-unused-vars': 0,
-        'no-undef': 0
+        'no-undef': 0,
+        camelcase: 0
     }
 }
