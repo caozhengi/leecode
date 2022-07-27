@@ -1,12 +1,11 @@
 const example = [
-    // [[46, 89], [50, 53], [52, 68], [72, 45], [77, 81]]
-    // [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-    covert2BinaryTree([3, 2, 3, null, 3, null, 1])
+    [1, 5, 2]
+    // covert2BinaryTree([2, 1, 3, null, 4])
 ]
 
 console.log('param', ...example)
 // const example = covertList([1,1,2]);
-console.log('Result: ', rob(...example))
+console.log('Result: ', PredictTheWinner(...example))
 
 /**
 let obj = null;
