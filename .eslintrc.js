@@ -13,6 +13,7 @@ module.exports = {
         indent: ['error', 4],
         'no-unused-vars': 0,
         'no-undef': 0,
-        camelcase: 0
+        camelcase: 0,
+        'prefer-const': 0
     }
 }
