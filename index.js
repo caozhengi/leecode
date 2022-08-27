@@ -1,12 +1,14 @@
 const example = [
-    covert2BinaryTree([100, 4, 200, 1, 3, 2])
+    // [4, 1, 2, 1, 2]
+    covert2BinaryTree([-3])
+    // covert2BinaryTree([-10, 9, 20, null, null, 15, 7])
     // covertList([9, 9, 9, 9, 9, 9, 9])
     // covert2BinaryTree([2, 1, 3, null, 4])
 ]
 
 console.log('param', ...example)
 // const example = covertList([1,1,2]);
-console.log('Result: ', isSymmetric(...example))
+console.log('Result: ', maxPathSum(...example))
 
 /**
 let obj = null;
