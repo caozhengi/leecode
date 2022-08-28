@@ -1,14 +1,15 @@
 const example = [
-    // [4, 1, 2, 1, 2]
-    covert2BinaryTree([-3])
+    // [['1', '0', '1', '0', '0'], ['1', '0', '1', '1', '1'], ['1', '1', '1', '1', '1'], ['1', '0', '0', '1', '0']]
+    // [['0', '0', '0'], ['0', '0', '0'], ['1', '1', '1']]
+    covert2BinaryTree([1, 3, 2, 5]),
+    covert2BinaryTree([2, 1, 3, null, 4, null, 7])
+    // covertList([4, 2, 1, 3])
     // covert2BinaryTree([-10, 9, 20, null, null, 15, 7])
-    // covertList([9, 9, 9, 9, 9, 9, 9])
-    // covert2BinaryTree([2, 1, 3, null, 4])
 ]
 
 console.log('param', ...example)
 // const example = covertList([1,1,2]);
-console.log('Result: ', maxPathSum(...example))
+console.log('Result: ', mergeTrees(...example))
 
 /**
 let obj = null;
